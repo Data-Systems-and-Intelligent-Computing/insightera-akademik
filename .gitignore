@@ -1,0 +1,42 @@
+# ---- DATA SENSITIF: JANGAN PERNAH DI-COMMIT ----
+# Berkas sumber asli memuat data pribadi / kuasi-identifier (lihat audit C-03)
+*.xlsx
+*.xls
+*.csv.gz
+data/raw/**
+data/anonymized/**
+data/synthetic/**
+data/fault_injection/**
+!data/**/.gitkeep
+# manifest (checksum, log anonimisasi, log generator) BOLEH di-commit
+!data/manifests/*.csv
+
+# ---- hasil besar / sementara ----
+results/raw/**
+!results/raw/.gitkeep
+warehouse/
+spark-warehouse/
+metastore_db/
+derby.log
+*.parquet
+*.avro
+*.orc
+
+# ---- rahasia & lingkungan ----
+.env
+*.pem
+*.key
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# ---- infra runtime ----
+infra/minio/data/
+infra/airflow/logs/
+infra/superset/*.db
+
+thesis
