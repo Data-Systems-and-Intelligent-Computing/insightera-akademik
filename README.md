@@ -14,7 +14,7 @@ Repositori penelitian tugas akhir untuk topik **Insightera (domain akademik)**.
 
 > Dokumen ini berisi **hasil audit** dan **rancangan penelitian yang direkomendasikan**.
 > Seluruh perubahan RQ, cakupan data, dan model dimensional di bawah adalah **usulan** dan
-> memerlukan **keputusan Supervisor 1** (lihat §19) sebelum dibekukan.
+> memerlukan **keputusan Supervisor** (lihat §19) sebelum dibekukan.
 >
 > Rincian audit: [audit/2026-09-14-audit-awal.md](audit/2026-09-14-audit-awal.md) ·
 > Register isu: [audit/issue-register.md](audit/issue-register.md) ·
@@ -23,7 +23,7 @@ Repositori penelitian tugas akhir untuk topik **Insightera (domain akademik)**.
 
 ---
 
-## 1. Ringkasan audit (untuk Supervisor 1)
+## 1. Ringkasan audit (untuk Supervisor)
 
 **Posisi sekarang.** Andina sudah punya draf skripsi LaTeX 51 halaman. Bab I–III sudah berisi
 latar belakang, 3 rumusan masalah, tinjauan pustaka, arsitektur Medallion (Iceberg, Spark,
@@ -167,7 +167,7 @@ Detail, bukti, opsi, dan Definition of Done ada di [audit/issue-register.md](aud
 3. Bagaimana mengukur performa sistem data lakehouse yang dibangun dalam proses ingestion,
    transformation, dan penyediaan data akademik untuk kebutuhan analitik dan pelaporan?
 
-### 5.2 RQ usulan — **SUPERVISOR-1 DECISION REQUIRED (D-01)**
+### 5.2 RQ usulan — **SUPERVISOR DECISION REQUIRED (D-01)**
 
 **RQ utama.**
 **Sejauh mana lakehouse berbasis Medallion dengan *quality gate* Write-Audit-Publish (WAP) pada
@@ -535,7 +535,7 @@ Penelitian utama dianggap selesai bila:
 
 ---
 
-## 19. Keputusan Supervisor 1 yang diperlukan
+## 19. Keputusan Supervisor yang diperlukan
 
 | ID | Pertanyaan | Opsi | Rekomendasi S2 |
 |---|---|---|---|
